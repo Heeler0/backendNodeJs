@@ -1,0 +1,24 @@
+{
+  "name": "backendnodejs",
+  "version": "1.0.0",
+  "description": "Using Socket.io libary to send constant updates to frontend from database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Heeler0/backendNodeJs.git"
+  },
+  "author": "Hans Leit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Heeler0/backendNodeJs/issues"
+  },
+  "homepage": "https://github.com/Heeler0/backendNodeJs#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql2": "^2.1.0",
+    "socket.io": "^2.3.0"
+  }
+}
