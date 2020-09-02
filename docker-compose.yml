@@ -1,0 +1,13 @@
+version: '3.7'
+services:
+
+  nodejs-server:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    ports:
+      - "4001:4001"
+    container_name: nodejs-api
+    volumes:
+       - ./api:/usr/src/app/nodeJS-api
+       - /usr/src/app/nodeJS-api/node_modules
